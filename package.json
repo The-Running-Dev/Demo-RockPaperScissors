@@ -1,6 +1,6 @@
 {
     "name": "rock-paper-scissors",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -8,9 +8,12 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "webdriver-update": "webdriver-manager update"
+        "webdriver-update": "webdriver-manager update",
+        "publish": "npm run build-ghpages && npm run publish-ghpages",
+        "publish-ghpages": "npx angular-cli-ghpages --dir=dist/RockPaperScissors",
+        "build-ghpages": "ng build --prod --base-href \"https://the-running-dev.github.io/Demo-RockPaperScissors/\"\n"
     },
-    "private": true,
+    "private": false,
     "dependencies": {
         "@angular/animations": "~8.1.0",
         "@angular/cdk": "^8.0.2",
@@ -35,6 +38,7 @@
         "@types/jasmine": "~3.3.8",
         "@types/jasminewd2": "~2.0.3",
         "@types/node": "~8.9.4",
+        "angular-cli-ghpages": "^0.5.3",
         "codelyzer": "^5.0.0",
         "jasmine-core": "~3.4.0",
         "jasmine-reporters": "^2.3.2",

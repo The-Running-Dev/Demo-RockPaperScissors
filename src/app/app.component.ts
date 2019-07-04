@@ -28,7 +28,10 @@ export class AppComponent {
     }
 
     pick(weapon: Entity): void {
-        // if (this.loading) return;
+        if (this.loading) {
+            return;
+        }
+
         this.loading = true;
         this.playerSelected = weapon;
 
