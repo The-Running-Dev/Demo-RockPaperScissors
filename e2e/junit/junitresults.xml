@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="1.473">
+ <testsuite name="Rock Paper Scissors Lizard Spock App" timestamp="2019-07-04T22:45:03" hostname="localhost" time="1.473" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Rock Paper Scissors Lizard Spock App" name="Should Display Welcome Message" time="1.001" />
+  <testcase classname="Rock Paper Scissors Lizard Spock App" name="Should Display the Initial Score as 0 0" time="0.472" />
+ </testsuite>
+</testsuites>

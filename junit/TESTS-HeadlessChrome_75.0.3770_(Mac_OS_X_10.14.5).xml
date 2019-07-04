@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 75.0.3770 (Mac OS X 10.14.5)" package="" timestamp="2019-07-04T21:44:37" id="0" hostname="Baby-MacBook.local" tests="24" errors="0" failures="0" time="0.607">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/75.0.3770.100 Safari/537.36"/>
+  </properties>
+  <testcase name="RockPaperScissorsService Should Make a Random Choice" time="0.028" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Should Create an Instance of the RockPaperScissors Service" time="0.007" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Lizard Gets Crushed by Rock" time="0.009" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Rock Crushes Lizard" time="0.006" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Lizard Eats Paper" time="0.009" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Lizard Gets Decapitated by Scissors" time="0.006" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Paper Gets Cut by Scissors" time="0.007" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Scissors Decapitates Lizard" time="0.01" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Scissors Get Crushed by Rock" time="0.014" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Scissors Cut Paper" time="0.012" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Scissors Get Smashed by Spock" time="0.011" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Rock Crushes Scissors" time="0.007" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Spock Smashes Scissors" time="0.01" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Spock Gets Poisoned by Lizard" time="0.006" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Lizard Poisons Spock" time="0.007" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Rock Gets Covered by Paper" time="0.009" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Rock Gets Vaporized by Spock" time="0.008" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Paper Covers Rock" time="0.006" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Spock Vaporizes Rock" time="0.007" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Spock Gets Disproved by Paper" time="0.011" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Paper Disproves Spock" time="0.008" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="RockPaperScissorsService Paper Gets Eaten by Lizard" time="0.01" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).RockPaperScissorsService"/>
+  <testcase name="AppComponent Should Render the Starting Score as 0" time="0.245" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).AppComponent"/>
+  <testcase name="AppComponent Should Create an Instance of the App Component" time="0.154" classname="HeadlessChrome_75_0_3770_(Mac_OS_X_10_14_5).AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

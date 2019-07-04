@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 77.0.3835 (Mac OS X 10.14.5)" package="" timestamp="2019-07-04T17:07:14" id="0" hostname="Beast-MacBook.local" tests="0" errors="1" failures="0" time="0">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/77.0.3835.0 Safari/537.36"/>
+  </properties>
+  <system-out>
+    <![CDATA[HeadlessChrome 77.0.3835 (Mac OS X 10.14.5) ERROR
+  Uncaught ReferenceError: jasmine is not defined
+  at /Applications/WebStorm.app/Contents/plugins/js-karma/js_reporter/karma-intellij/lib/kjhtml/intellij-save-specFilter-before-kjhtml.js:7:13
+  
+  ReferenceError: jasmine is not defined
+      at /Applications/WebStorm.app/Contents/plugins/js-karma/js_reporter/karma-intellij/lib/kjhtml/intellij-save-specFilter-before-kjhtml.js:7:13
+      at /Applications/WebStorm.app/Contents/plugins/js-karma/js_reporter/karma-intellij/lib/kjhtml/intellij-save-specFilter-before-kjhtml.js:15:3
+,HeadlessChrome 77.0.3835 (Mac OS X 10.14.5) ERROR
+  Uncaught ReferenceError: jasmineRequire is not defined
+  at /Users/ben/Dropbox/Projects/Angular/RockPaperScissors/node_modules/karma-jasmine-html-reporter/src/lib/html.jasmine.reporter.js:23:1
+  
+  ReferenceError: jasmineRequire is not defined
+      at /Users/ben/Dropbox/Projects/Angular/RockPaperScissors/node_modules/karma-jasmine-html-reporter/src/lib/html.jasmine.reporter.js:23:1
+,HeadlessChrome 77.0.3835 (Mac OS X 10.14.5) ERROR
+  Uncaught ReferenceError: jasmineRequire is not defined
+  at /Users/ben/Dropbox/Projects/Angular/RockPaperScissors/node_modules/karma-jasmine-html-reporter/src/lib/adapter.js:6:3
+  
+  ReferenceError: jasmineRequire is not defined
+      at /Users/ben/Dropbox/Projects/Angular/RockPaperScissors/node_modules/karma-jasmine-html-reporter/src/lib/adapter.js:6:3
+      at /Users/ben/Dropbox/Projects/Angular/RockPaperScissors/node_modules/karma-jasmine-html-reporter/src/lib/adapter.js:81:3
+,HeadlessChrome 77.0.3835 (Mac OS X 10.14.5) ERROR
+  Disconnected, because no message in 30000 ms.
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
