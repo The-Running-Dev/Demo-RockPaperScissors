@@ -1,35 +1,48 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+
+import { MatButtonModule, MatCardModule, MatCheckboxModule, MatProgressSpinnerModule, MatToolbarModule } from '@angular/material';
+
 import { AppComponent } from './app.component';
+import { RockPaperScissorsService } from './services/rock-paper-scissors.service';
 
 describe('AppComponent', () => {
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule
-      ],
-      declarations: [
-        AppComponent
-      ],
-    }).compileComponents();
-  }));
+    let fixture;
+    let app;
+    let appCompiled;
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
-  });
+    beforeEach(async(() => {
+        TestBed.configureTestingModule({
+            imports: [
+                MatToolbarModule,
+                MatCardModule,
+                MatProgressSpinnerModule,
+                MatButtonModule,
+                MatCheckboxModule,
+                RouterTestingModule
+            ],
+            providers: [
+                RockPaperScissorsService
+            ],
+            declarations: [
+                AppComponent
+            ]
+        }).compileComponents();
 
-  it(`should have as title 'RockPaperScissors'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('RockPaperScissors');
-  });
+        fixture = TestBed.createComponent(AppComponent);
+        app = fixture.debugElement.componentInstance;
+        appCompiled = fixture.debugElement.nativeElement;
+    }));
 
-  it('should render title in a h1 tag', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to RockPaperScissors!');
-  });
+    it('Should Create an Instance of the App Component', () => {
+        expect(app).toBeTruthy();
+    });
+
+    it('Should Render the Starting Score as 0', () => {
+        fixture.detectChanges();
+
+        const score = appCompiled.querySelector('button.score');
+
+        expect(score.textContent).toContain('0');
+    });
 });
